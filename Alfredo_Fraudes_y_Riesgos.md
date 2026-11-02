@@ -3,313 +3,479 @@
 - **Archivo:** `Alfredo_Fraudes_y_Riesgos.m4a`
 - **Duración:** 1:00:27
 - **Idioma:** español
-- **Transcripción:** automática con FAL (`fal-ai/whisper`, Whisper v3, separación de hablantes). Las secciones que Whisper omitió en la primera pasada se volvieron a transcribir.
-- **Hablantes:** etiquetas automáticas (A, B, C). Hablante A es quien habla la mayor parte del tiempo. Los nombres no se identificaron. Puede haber errores de asignación en intercambios rápidos.
+- **Hablantes:** **Alfredo** (área de fraudes y riesgos; habla la mayor parte del tiempo) e **Interlocutor** (persona que se está incorporando y va a trabajar con el equipo de desarrollo). La asignación de nombres se infirió por contexto.
+
+## Cómo se hizo esta versión
+
+Transcripción automática con dos modelos en FAL (ElevenLabs Scribe y Whisper v3), comparados entre sí y corregidos a mano por contexto. Se quitaron muletillas y repeticiones ("la, la, la") sin cambiar el sentido.
+
+- `[?]` = palabra o nombre inferido, no confirmado.
+- `[poco claro]` = fragmento que no se entiende en el audio.
+
+**Correcciones principales:**
+
+| En el audio se transcribió como | Corregido a |
+|---|---|
+| Zoom Zoom / ZoomZoom / Zoom | **Sumsub** (servicio de verificación de identidad) |
+| Tienda UV / envíos UV | **Tiendanube / Envío Nube** |
+| cuenta de Pía / página de miel | **Envía** |
+| negocios de Tendencias | **Tendencys** |
+| Ica | **Ecart [?]** (empresa del grupo que administra Sumsub) |
+| caja de Oxford | **caja de OXXO** |
+| caja de pedo | **caja negra** |
+| maños tácticos | **malas prácticas** |
+| se roban varias tabletas | **se roban varias tarjetas** |
+| ponchecito | **bonchecito** |
+| Albertio / Alberto | **Adalberto** |
+| área del DAC / elac | **área de Legal** |
+| proceso de sucesión | **proceso de asociación (de cuentas)** |
 
 ---
 
-**[00:00:05] Hablante A:** Entonces, pues primero que nada, pues fue el platicando con alguien. Yo, como que el departamento no estaba muy formal, ¿no? No existía la posición, no existía el departamento. Pero históricamente se habían tenido muchos clientes que dejaron sanguíneos, obesos, todo esto. Entonces, cuando tuve la primera sesión con Red, ¿Cómo tú te vas a ver? Todo lo muerto. Y además, el proceso que te presentan. Entonces, cómo estarás tú y este... Francisco. Porque va a empezar como lo veo yo, ¿verdad? Claro. Entonces, de ahí me he ido, poco a poco, haciendo... pues... puntualizando por área, entonces como mi área, como el área de antes no estaba como Country Manager era de Director de Operaciones y Auditoría Global, entonces ella decía pues tengo que asegurar que los clientes que tengamos sean reales y no sean duplicados, o sea había mucho Todavía hay muchos clientes así como que pueden ser duplicados obviamente, no, obviamente guías, pero realmente guías es un área gris porque formalmente no se puede, pero sí existen. Sí existen. Existen los de guías. Ok. Que están autorizados. con la área hasta con Raymas, porque ya va desde que empezó el bien. Entonces ahí tenemos un área muy grande, por más controles que metamos nosotros, el revendedor siempre va a querer polarizar su venta, y con los controles, se va a aplicar entonces por ahí más o menos estoy controlando con el área de con el área de elac así todo lo contrapito ya les pasé un machote ahí
+**[00:00:00] Alfredo:** En una semana son cinco meses. Entonces, pues primero que nada, fue platicando con Ale, pues yo… como que el departamento no estaba muy formado. No existía la posición, no existía el departamento. Pero históricamente se han tenido muchos clientes que dejan saldos negativos, sobrepesos y todo esto. Entonces, cuando tuve la primera sesión con Ray, me dijo: "Tú te vas a ver todo lo de onboarding". Ya era más o menos el procesito que te presenté. Entonces, como estabas tú y este, creo que…
 
-**[00:02:19] Hablante B:** porque si queremos revendedores pero queremos revendedores controlados
+**[00:00:42] Interlocutor:** Francisco.
 
-**[00:02:24] Hablante A:** queremos revendedores pero ya que como le puse Vamos a quitar aquí. Entonces aquí, ese es más o menos el control, formalización formatual de créditos que usan guías como insumo. En el que traté un poco, aquí corremos el comercial legal y el product and risk prevention para formar el saldo de los clientes que usan nuestras guías de la mano. pero como parte de su proceso, como logística, por WordPress, por Keyframes, empresas como MataPix o eCommerce Pro. Ya tenemos eCommerce Pro, porque el tienda es un cliente muy grande de nosotros. Ellos tienen un Shopify y tienen envío web, y los envíos web los hacen a través de nosotros. pero cuando los clientes de ellos quieren hacer mercados internacionales envían algo, bueno, a Tienda V nos recomienda a nosotros entonces, ¿a quiénes aplican? a estos tipos de negocios gente que no aplicas, quien solo revende guías sin operación o pista de carrera que no se informa de eso, entonces si queremos pero queremos que sean empresas reales, no una... hay muchos pueblos así remotos, la papelería vendería y envíos locales, si se cuenta que es una tiendita así como está Feta pero en Tuxpan o en así lugares remotos
+**[00:00:43] Alfredo:** Francisco. Dije: "Pues voy a empezar como lo veo yo", ¿verdad?
 
-**[00:04:16] Hablante B:** ya, ya, ya
+**[00:00:47] Interlocutor:** Claro.
 
-**[00:04:18] Hablante A:** entonces eso más o menos lo estamos haciendo de esta manera Pero el día a día, ¿cómo lo estamos viendo? Lo estamos viendo en nuestro MDR, CDR. Esos son la parte comercial y esta parte es la parte operativa, CSS y CSA. Aquí venían las solicitudes. Este chavo está en la parte de chat. Le dice, mira, buenas tardes, el cliente quiere activar DHL, está afectado y se le pide evidencia. Entonces me mandan su carta de venta y me mandan, oye esto es. Y ellos ya saben que tienen que pedir la hoja de seguridad para saber si es un ruido o un descarga. Entonces me meto aquí en la cliente.
+**[00:00:48] Alfredo:** Entonces, de ahí he ido poco a poco puntualizando por área, ¿verdad? Como mi área… antes no estaba el área como Country Manager, era de Director de Operaciones y Auditoría Global. Entonces, ella decía: "Pues tengo que asegurar que los clientes que tengamos sean reales y no sean duplicados". Había mucho… todavía hay muchos clientes que pueden ser duplicados o que revenden guías. Revender guías es un área gris, porque formalmente no se puede, pero sí existen. Sí existen revendedores de guías.
 
-**[00:05:21] Hablante C:** Ok.
+**[00:01:40] Interlocutor:** Okey.
 
-**[00:05:22] Hablante A:** Entiendo. Y a la entrada me purifico si está verificada. Así se ve la priorización. Nosotros tenemos varias plataformas de información. Tenemos Admin, que es nuestro software, y tenemos este Zoom Zoom. Este Zoom Zoom es el que hace nuestras validaciones. estas validaciones el cliente ingresa un link y hace su propia validación, se toma una selfie correcto y nosotros vemos en donde se valida el link o como se llama, en la IP Aquí vienen las fotos que toma, a veces aquí nos enteramos si hubo varias personas haciendo la verificación, porque aquí vemos pasaportes de otras personas, de todo, documentos de todo. Mira, aquí vemos otra vez, se tomó muchísimas fotos.
+**[00:01:41] Alfredo:** Y están autorizados, eh, desde con [nombres poco claros].
 
-**[00:06:39] Hablante B:** aceptado, aceptado A ver, otra más foto. Tomé muchísimas fotos de esta persona. Aquí está el correo con el que se dio cuenta. Se dio cuenta aquí. A veces el correo de aquí.
+**[00:01:49] Interlocutor:** Claro. Porque llevan desde que empezó el negocio.
 
-**[00:06:58] Hablante A:** no coincide con el meta, a veces.
+**[00:01:51] Alfredo:** Órale. Entonces, ahí tenemos un área muy grande. Por más controles que inventemos nosotros, el revendedor siempre va a querer priorizar su venta y se va a brincar los controles. Entonces, por ahí más o menos lo estoy controlando con el área de Legal, haciendo un contratito. Ya les pasé un machote ahí.
 
-**[00:07:03] Hablante B:** Ya.
+**[00:02:19] Interlocutor:** Porque sí queremos revendedores, pero queremos revendedores controlados.
 
-**[00:07:04] Hablante A:** Entonces hay que ver por qué no, a veces... Y aquí vienen algunas etiquetas de riesgo. Entonces, esta etiqueta se utiliza en varios dispositivos. Esta es una etiqueta normal, porque cuando tú te estás verificando en la computadora, te aparece el zoom zoom y tu puedes agarrar el celular y te aparece un QR y este procesito lo puedes hacer desde tu celular te tomas la cel y te abre la foto de la cel
+**[00:02:24] Alfredo:** Queremos revendedores, pero como le puse… Entonces, aquí este es más o menos el control: "Formalización contractual de clientes que usan guías como insumo". Aquí ponemos al comercial, a Legal y a Prevención de Riesgos para formalizar por contrato a los clientes que usan nuestras guías como parte de su proceso: logísticas, *warehouses* [?], empresas como marketplaces o e-commerce. Por ejemplo, Tiendanube es un cliente muy grande de nosotros. Ellos tienen, digamos, como un Shopify, y tienen Envío Nube, y los envíos de Envío Nube los hacen a través de nosotros. Pero cuando los clientes de ellos quieren hacer envíos internacionales, Tiendanube nos recomienda a nosotros.
 
-**[00:07:31] Hablante B:** ok y luego le sigues en otro
+**[00:03:38] Interlocutor:** Okey.
 
-**[00:07:33] Hablante A:** y luego le sigues aquí y aquí por ejemplo vemos los datos de la empresa bueno los datos de la persona si es empresa también aquí suben sus actas sus documentos entonces aquí vemos ok aqui esta rechazada el selfie fue en mario pero por suerte mas abajo viene si la persona que se tomo la selfie en las etiquetas es diferente aqui y aca
+**[00:03:39] Alfredo:** Entonces, ¿a quiénes aplica? A estos tipos de negocio. A quien no aplica es a quien solo revende guías sin operación logística propia, que no es e-commerce. Entonces sí queremos, pero queremos que sean empresas reales, ¿verdad? No una… hay mucho en pueblos remotos, de que la papelería vende guías y hace envíos locales. Haz de cuenta que es una tiendita así como Estafeta, pero en, no sé, en Tuxpan, o así en lugares remotos.
 
-**[00:08:08] Hablante B:** entonces con la persona de arriba
+**[00:04:16] Interlocutor:** Ya, ya, ya.
 
-**[00:08:10] Hablante A:** se rechazo pero con esta si pero aca no es como en el video
+**[00:04:19] Alfredo:** Entonces, eso más o menos lo estamos haciendo de esta manera. Pero el día a día, ¿cómo lo estamos viendo? Lo estamos viendo en este grupo, el de MDR y SDR. Esa es la parte, digamos, comercial. Y esta es la parte operativa: CS y CSA. Aquí me llegan las solicitudes, ¿verdad? Este chavo está en la parte del chat y me dice: "Mira, buenas tardes, el cliente quiere activar DHL, [poco claro] y se le pide evidencia". Entonces, me mandan su carta [?] y me mandan: "Oye, esto es". Y ellos ya saben que tienen que pedir la hoja de seguridad, para saber si es un producto prohibido o limitado. Entonces, me meto aquí al cliente.
 
-**[00:08:27] Hablante B:** Pues sí le dio positivo a la coincidencia.
+**[00:05:21] Interlocutor:** Okey.
 
-**[00:08:30] Hablante A:** Le dio positivo, pero no me parece. Y si te fijas, aquí tienen dos candidatos. O sea, aquí se llaman candidaturas, candidaturas, sí. Se llaman candidatas. O sea, cada solicitud tiene un número diferente. O sea, es un número que no se repite, ¿no? y vemos que la misma persona se ha validado con el mismo correo vale, y creo que este debe de aquí hay veces que una persona se ha validado con el mismo correo o la misma persona con diferente correo entonces cuando son con diferente correo hay que buscar el landing que cuenta ese Entonces ahí es un procesito meramente malo. Aquí ya solicité a esta radio, pero no creo que esté en su... no sé si en su... en su tacha, que cuando hagan la verificación, aquí el ZoomSum captura estos datos. pero me gustaría que también capturara al domicilio, porque hay muchos familiares que ya hacen su verificación y eso nos ahorraría muchísimo tiempo, o no sé si lo podría mejor digitalizar a Armin,
+**[00:05:23] Alfredo:** Yo de entrada verifico si está verificado. Así se ve la verificación. Nosotros tenemos varias plataformas donde tenemos información: tenemos Admin, que es nuestro software, y tenemos Sumsub. Sumsub es el que hace nuestras validaciones. En estas validaciones, el cliente ingresa a un link y hace su propia validación: se toma una selfie…
 
-**[00:10:08] Hablante B:** o que lo digitalizara a Armin o que lo digitalizara a Samsung. porque eso nos ayuda ya muchísimo. A veces vemos en cuentas hermanos, papás y hermanos y nietos y ya nos damos cuenta hasta que nos dejó el negativo. Ah, mira, en la misma dirección, por esposos.
+**[00:05:58] Interlocutor:** Correcto.
 
-**[00:10:28] Hablante A:** De que, oye, quiero activar esta cuenta y yo también y de repente los de chat, oye, ¿quieres activar uno de vosotros también? Y el resultado que eran esposos.
+**[00:05:59] Alfredo:** …y nosotros vemos dónde se validó; viene la IP. Más abajo vienen las fotos que él toma. A veces aquí nos enteramos si hubo varias personas haciendo la verificación, porque vemos pasaportes de otras personas, documentos de todo. Mira, aquí vemos otra vez: se tomó muchísimas fotos. Aceptado, aceptado. Más fotos. Tomó muchísimas fotos esta persona. Aquí está el correo con el que se dio de alta. A veces el correo de aquí no coincide con el de acá.
 
-**[00:10:39] Hablante B:** ¿Quién es el encargado del Zoom Sub ahorita?
+**[00:07:03] Interlocutor:** Ya.
 
-**[00:10:43] Hablante A:** Ahorita ICAR El Endurance de Vinicius así ha sido históricamente Icar es el que administra aquí si te fijas hay tres tipos de ellos le llaman tipo de de formulario entonces a veces aparece persona natural MX a veces aparece ICA o a veces aparece multicompany aquí, a este nivel
+**[00:07:04] Alfredo:** Entonces hay que ver por qué no. Y aquí vienen algunas etiquetas de riesgo. Esta etiqueta es: "se utilizaron varios dispositivos". Esta es una etiqueta normal, porque cuando tú te estás verificando en la computadora te aparece Sumsub, y tú puedes agarrar el celular, te aparece un QR, y este procesito lo puedes hacer desde tu celular. Te tomas la selfie, te tomas la foto de las identificaciones…
 
-**[00:11:23] Hablante B:** ok
+**[00:07:31] Interlocutor:** Okey, y luego le sigues en el otro.
 
-**[00:11:25] Hablante A:** se guarda en diferentes bases de datos mi cara es el que es el duelo. Hace dos semanas, por lo que te di, la misma modificación se va a usar para los dos negocios, o para todos los negocios de tendencias. Entonces, si se verifica alguien en ICA, automáticamente puedes hacer una cuenta de envía sin hacer otra verificación. Entonces, eso es algo nuevo y bueno, así se va.
+**[00:07:33] Alfredo:** Y luego le sigues aquí. Y aquí, por ejemplo, vemos los datos de la persona; si es empresa, también aquí suben sus actas, sus documentos. Aquí está rechazado. La selfie fue en mayo, ¿verdad? Pero más abajo viene si la persona que se tomó la selfie… mira, si te fijas, es diferente persona. Aquí y acá.
 
-**[00:12:01] Hablante B:** Ah, pues eso está muy bien.
+**[00:08:09] Interlocutor:** Mmm, órale.
 
-**[00:12:03] Hablante A:** Sí, o sea, porque si nos gritamos, si hay invitados o no a gritar, la realidad es que a veces hay que saber si se gritó o no, por qué, y así. Entonces, aquí está el surzo. Si queremos dar la comunicación con el cliente, yo me tengo que meter acá, que es otra plataforma. Aquí el que es el dueño del respond es operaciones, por lo menos aquí en México, no sé si tengan en otros países. Entonces, por ejemplo, aquí vemos que se ha comunicado este cliente por dos números. Entonces, aquí tiene diferentes categorías. que tiene diferentes categorías, que estas categorías no coinciden con las categorías que tenemos aquí. Aquí tenemos muchas categorías. Entonces estaría bien que los cambien. para tomar, entonces aquí está como el listrado y aquí si yo tengo alguna duda pues me pongo a leer la conversación a veces la conversación es por correo por mail, por red social ya cuando hago una aquí, quiero decir que el vendedor lleva la conversación por su chat del prestado lo ideal es que fuera por aquí. Y por aquí hay mucha información. Por ejemplo, mira, eso de aquí luego lo puso en la solicitud. Entonces, a veces cuando la información está media expuesta en el TUR, No sé por qué la llamo TOOP, pero se llama esta parte. Se llama la parte TOOP. Aquí debería poner con quién están hablando, el canal de ventas de la empresa. Aquí debería poner con quién está trabajando, orígenes, qué es lo que está buscando. Aquí cualquier dato.
+**[00:08:11] Alfredo:** Entonces, con la persona de arriba se rechazó, pero con esta sí. Pero según ellos aquí se parece.
 
-**[00:14:27] Hablante B:** Y entre más información tengamos, mejor va a ser la recomendación que nosotros podamos hacer. El área de seguridad de la comunidad.
+**[00:08:27] Interlocutor:** Pues sí le dio positivo a la coincidencia.
 
-**[00:14:37] Hablante A:** Entonces, así de pronto, así me caigo. Entonces, es un proceso bien manual, como se está llevando la revisión de los días, me caigo. Dientes. Este que es de Botas, este que es de Bios y le dije oye, muy bien, pero primero paga estos datos muy bien, pero paga primero esto y entonces dice como que
+**[00:08:30] Alfredo:** Le dio positivo, pero no se parece. Y si te fijas, aquí tiene dos candidatos. Le llaman *candidates*. Cada solicitud tiene un número diferente, es un número que no se repite. Y vemos que la misma persona se validó con el mismo correo. Hay veces que una persona se valida con el mismo correo, o la misma persona con diferente correo. Cuando es con diferente correo, hay que buscar en Admin esa cuenta. Entonces, ahí es un procesito meramente manual. Aquí ya le solicité a Nadia —pero no sé si esté en su cancha— que cuando hagan la verificación, Sumsub capture estos datos, pero me gustaría que también capturara el domicilio, porque hay muchos familiares que hacen su verificación, y eso nos ahorraría muchísimo tiempo. O no sé si lo podría digitalizar mejor Admin; eso estaría muy bien.
 
-**[00:15:16] Hablante B:** obviamente no va a pagar nada
+**[00:10:08] Interlocutor:** Que lo digitalizara Admin o que lo digitalizara Sumsub.
 
-**[00:15:18] Hablante A:** hemos logrado la gestión de cobranza de 80 mil pesos
+**[00:10:10] Alfredo:** Porque eso nos ayudaría muchísimo. A veces vemos en cuentas hermanos, papás, nietos…
 
-**[00:15:23] Hablante B:** ¿en cuanto tiempo?
+**[00:10:20] Interlocutor:** No jodas.
 
-**[00:15:26] Hablante A:** O sea, un cliente, solamente un cliente llegó, oye, este cliente manda piratería. Otro pirata, no el que vimos, el de los tenis, otro pirata, llegó el de una persona de... El Customer Service, no del CSA. Esa persona ve impuestos internacionales. Me dice, oye, esta parte, este cliente manda piratería. Muy bien, le apague internacional. Se comunicó con el CAE, con el Customer Service.
+**[00:10:21] Alfredo:** …y ya nos damos cuenta hasta que nos dejó en negativo. "Ah, viven en la misma dirección". O esposos: "Oye, quiero activar esta cuenta", "y yo también". Y de repente los de chat: "Oye, ¿quieres activar una de ahorro?", "Yo también". Y el resultado es que eran esposos.
 
-**[00:16:03] Hablante C:** Y le dijo, oye, tú mandas piratería, pero debes 80 mil pesos en estas tres cuentas. no, pues es de mi hermana y nosotros en el Zoom Zoom veíamos que era ella
+**[00:10:39] Interlocutor:** Ya. ¿Y quién es el encargado de Sumsub ahorita?
 
-**[00:16:16] Hablante B:** y la suposó y la pagaron
+**[00:10:42] Alfredo:** Ahorita Ecart [?].
 
-**[00:16:20] Hablante A:** y se tardó como dos o tres horas y pagó entonces así tenemos muchísimo dinero en las cuantas porque como no sé, como 30 mil pesos
+**[00:10:45] Interlocutor:** ¿Ecart?
 
-**[00:16:32] Hablante B:** por ejemplo este cliente porque tiene tantos saldos negativos
+**[00:10:47] Alfredo:** Es un gran servicio. Así ha sido históricamente: Ecart es el que lo administra. Aquí, si te fijas, hay tres tipos de… ellos le llaman "tipo de formulario". A veces aparece "Persona Natural MX", a veces aparece Ecart, o a veces aparece "Multi Company". A este nivel.
 
-**[00:16:37] Hablante A:** este cliente hizo una auditoría, por ahí lo mencionaste hay unos vendedores que llevan mucho tiempo aquí mucho tiempo aquí son 3 años los vendedores para los vendedores son 3 años entonces estos clientes Bueno, estos vendedores se dicen, oye, pues el cliente se enojo y él no contesta. Y luego metí el tool, oye, el cliente lleva dos años y no tiene tool, ¿por qué? No, pues es que así son, se enojan y no nos contestan. Y de repente voy viendo un patrón, oye, todos se enojan, no contestan, pero muy bien usan. muy bien usan la plataforma y muy bien la hacen en BIOS y de repente como teníamos un descontrol en administración Si me fijas aquí, hay 70, 70, 70, 80, 80, 90, 80, 90, 100… [cifras repetidas poco claras] te voy a explicar más o menos lo de ajustes mira este es muy muy mejor este cliente hace guías ¿verdad? entonces yo aquí en ajustes estos ajustes hace cuenta que el cliente hace una guía vamos a hacerlo aquí Este cliente hizo la guía el 23 de septiembre. Sí. Él dijo que era un kilo, y lo real fueron dos kilos, y en ajustes... Aquí el 28. nos enteramos que el cliente nos va a deber 147 pesos por un kilo grado bueno, este procesito de 5 días en mayo cuando entré eran de 45 o 45 kilos más entonces nosotros estabamos fundiendo el proceso de los malos prácticos el de los sombreros, el de las botas, monturas, monturas de caballo me sento con mano una y mandaban 80 kilos por los BHL entonces por ejemplo
+**[00:11:23] Interlocutor:** Okey.
 
-**[00:19:35] Hablante B:** se iba el paquete y luego 45 días después de repente, ¡pum!, el cliente nos debe 45 mil pesos. Y el cliente, el cliente, ¿y el qué? No, pues el cliente ya no se lo pudo, ya no nos contesta. Así lo decían en el rededor.
+**[00:11:26] Alfredo:** Se guardan en diferentes bases de datos. Ecart es el dueño. Hace dos semanas, por lo que entendí, la misma verificación se va a usar para todos los negocios de Tendencys. Entonces, si se verifica alguien en Ecart, automáticamente puede hacer una cuenta de Envía sin hacer otra verificación. Eso es algo nuevo.
 
-**[00:19:51] Hablante A:** ¿Cómo? O sea, si yo... No, así son los clientes. Y de repente, a los dos días, un cliente igualito con otro hombre haciendo el mismo ruido. No manches. Entonces decías, oye, pues...
+**[00:12:01] Interlocutor:** Ah, pues eso está muy bien.
 
-**[00:20:03] Hablante C:** Entonces, llegué a Revalios y dije,
+**[00:12:03] Alfredo:** Sí, o sea, porque así nos quitamos [poco claro]. A veces hay que saber si se verificó o no, por qué, y así. Entonces, aquí está el asunto: si queremos ver la comunicación con el cliente, tengo que meterme acá, que es otra plataforma.
 
-**[00:20:05] Hablante A:** ¿sabes qué? Voy a hacer una auditoría. Y pues así. Este cliente es algo, yo, con él, yo recomendaría no activarlo.
+**[00:12:30] Interlocutor:** Al Respond.
 
-**[00:20:16] Hablante B:** Claro.
+**[00:12:31] Alfredo:** El dueño de Respond es Operaciones. Bueno, al menos aquí en México; no sé si lo tengan en otros países. Entonces, por ejemplo, aquí vemos que este cliente se ha comunicado por dos números. Aquí tiene diferentes categorías, y estas categorías no coinciden con las categorías que tenemos aquí. Aquí tenemos muchas categorías.
 
-**[00:20:17] Hablante A:** Pero, porque mira, este es real. Aquí ya lo puse. Este es un canal de ventas. Y fue este, me di cuenta. Mira aquí, así se ve lo que me hice. Centro...
+**[00:13:13] Interlocutor:** Ya.
 
-**[00:20:40] Hablante B:** centro autorizado de envíos si
+**[00:13:14] Alfredo:** Entonces estaría bien que las homologaran. Aquí está como registrado, y si yo tengo alguna duda, pues me pongo a leer la conversación. A veces la conversación es por correo, por red social. Cuando lo veo en rojo, quiere decir que el vendedor llevó la conversación por su chat de empresa; lo ideal es que fuera por aquí. Y por aquí hay mucha información, mira. Por ejemplo, esto de aquí no me lo puso en la solicitud.
 
-**[00:20:44] Hablante A:** ¿está haciendo Toyota o nunca? conectando a América
+**[00:14:00] Interlocutor:** Ya.
 
-**[00:20:48] Hablante B:** si, o sea este chavo vende esto
+**[00:14:01] Alfredo:** Entonces, a veces la información está muy descuidada en el "tour" [?]. No sé por qué le llaman así, pero así se llama esta parte. Y aquí debería poner con quién están hablando, el canal de ventas de la empresa, con quién está trabajando, orígenes, qué es lo que está buscando. Aquí cualquier dato, la verdad. Y entre más información tengamos, mejor va a ser la recomendación que nosotros podamos hacer desde el área de riesgos [?].
 
-**[00:20:50] Hablante A:** ¿y si venden?
+**[00:14:37] Alfredo:** Entonces, así de bote pronto me caen. Es un proceso bien manual cómo se está llevando la revisión. Clientes [?]: este tiene botas, mira, este de botas es de aquí de León [?]. Y le dije: "Oye, muy bien, pero primero paga estos saldos". "Muy bien, pero paga primero esto", y ahí se concluye…
 
-**[00:20:52] Hablante B:** si venden muchísimo
+**[00:15:16] Interlocutor:** Obviamente no va a pagar nada.
 
-**[00:20:54] Hablante A:** vale pues traen ahí casi 2 millones
+**[00:15:18] Alfredo:** De repente… hemos logrado una gestión de cobranza de 80 mil pesos.
 
-**[00:20:58] Hablante B:** si eso es histórico
+**[00:15:23] Interlocutor:** Órale. ¿En cuánto tiempo?
 
-**[00:21:02] Hablante A:** eso es histórico los cargos de vamos a ver se registró el 18 de enero del 24 y en días no va a ser una cosa normal entonces para este tipo de clientes esto es una minita de oro porque ellos no hacen presión, no hacen nada
+**[00:15:27] Alfredo:** O sea, de un cliente. Solamente un cliente. Llegó: "Oye, este cliente manda piratería". Otro pirata, no el que vimos, el de los tenis; otro pirata. Llegó una persona de Customer Service, no, de CSA. Esa persona ve impuestos internacionales [?]. Me dice: "Oye, este cliente manda piratería". Muy bien, le apagué internacional. Se comunicó con el CSA, con Customer Service, y le dijeron: "Oye, pues tú mandas piratería, pero debes 80 mil pesos en estas tres cuentas". "No, pues es de mi hermana". Y nosotros en Sumsub veíamos que era ella quien se verificaba. Y lo pagó. Se tardó como dos, tres horas, y pagó. Mira. Entonces, así tenemos muchísimo dinero en las cuentas, ¿verdad?
 
-**[00:21:28] Hablante B:** no hacen seguimiento
+**[00:16:28] Interlocutor:** Sí.
 
-**[00:21:31] Hablante A:** o sea ellos nomás colocan la guía y no le importa si va a mandar medicamento controlado o lo que sea este cliente mandó de las dos semanas, mandó fertilizante y se derramó con esta feta y esta feta obviamente no sube, no mandó, lo dijo y yo lo bloqueé y yo dije pues no, esta persona no no hay que activarle nada, pero pues al final su primera línea fue el 23 de febrero
+**[00:16:29] Alfredo:** Yo creo que como, no sé, como treinta mil… Y este cliente, por ejemplo, ¿por qué tiene tantos saldos negativos? Por este cliente hice una auditoría; por ahí lo mencionó Ray. Hay unos vendedores que llevan mucho tiempo aquí. Bueno, mucho tiempo relativo: son tres años. Los vendedores más longevos llevan tres años.
 
-**[00:22:07] Hablante B:** el 24, sumado pero si por ejemplo el que le compra a este revendedor tiene preguntas de su guía no va con Bernal Company
+**[00:16:55] Interlocutor:** Tres.
 
-**[00:22:21] Hablante A:** si hace el tiene una guía y el puede consultar en la paqueteria a importar en la paqueteria
+**[00:16:56] Alfredo:** Entonces, estos vendedores decían: "Oye, pues el cliente se enojó, ya no me contesta".
 
-**[00:22:29] Hablante B:** directo de cual es la que se esta afecta
+**[00:17:02] Interlocutor:** No manches.
 
-**[00:22:31] Hablante A:** el puede hacer estos tickets pero normalmente como le sacan tanto dinero no hacen tickets una persona que Esta feta históricamente es el que tiene problemas, porque el proceso de ellos es muy, digamos, antecesorario. Entonces van escaneando y ellos tienen una banda, entonces hay una cajota y ponen un sobrecito y se va el sobrecito sobre la cajota y escanean y el registra el peso acá abajo entonces dicen, tu sobre pesa 50 kilos, entonces la gente dice, eh, ticket y siempre un cliente normal pues hace tickets porque oye, porque estás cobrando de más, porque pues, ¿cómo? y un cliente reventa, no, no hace tickets no le da... o sea, está formado en que creo que es verdad para... o sea, me dudo de que nos guste más en un marco interna. Claro. Entonces... y desde el punto de vista... de que no necesitas hacer las canciones. a menos de eso entonces desde este punto de vista pues es un admitido porque me di cuenta que es un vendedor mira es un proceso super aquí están una persona primero nos dijo que vendía ropa ahí está en un canal de snap pero si quieres ahorita te lo... vende ropa muy bien muy bien Pero aquí tengo otra verificación. Se ve un martillo. Y así hemos agarrado varios, ¿eh? Es la misma persona. Pero aquí atrás... aquí atrás se veía ese... no sabíamos que venía, o sea no tenía evidencia pero puse esto en estas letras, las puse en Google
+**[00:17:03] Alfredo:** Y luego me metía al tour [?]: "Oye, tu cliente lleva dos años y no tiene tour, ¿por qué?". "No, pues es que así son, se enojan y no nos contestan". Y yo de repente voy viendo un patrón, ¿verdad? Oye, todos se enojan, no contestan, pero muy bien usan la plataforma y muy bien hacen envíos. Y como teníamos un descontrol en la administración… Si te fijas aquí, este cliente, este cliente, este cliente [cifras poco claras]… A ver si se ve. Te voy a explicar más o menos lo de ajustes. Mira, este es un buen ejemplo. Este cliente hace guías, ¿verdad? Haz de cuenta que el cliente hace una guía. Vamos a ver internacional. Este cliente hizo la guía el 23 de septiembre.
 
-**[00:24:43] Hablante B:** y yo puse Reventa de Guías y pum, me salió el Facebook
+**[00:18:41] Interlocutor:** Sí.
 
-**[00:24:47] Hablante C:** así encontré, entonces estaría muy bien que pues
+**[00:18:42] Alfredo:** Él dijo que era un kilo y lo real fueron dos kilos. Y en ajustes, aquí el 28, nos enteramos que el cliente nos va a deber 147 pesos por un kilo, ¿verdad? Bueno, ese procesito de cinco días, en mayo, cuando entré, era de cuarenta y cinco días o más. Entonces nosotros estábamos fondeando [?]…
 
-**[00:24:53] Hablante A:** cualquier rato, y pues si es esa persona
+**[00:19:19] Interlocutor:** Ya.
 
-**[00:24:59] Hablante B:** pero no hombre cada cuanto hay letras así para buscar es bien único
+**[00:19:19] Alfredo:** …el proceso de las malas prácticas, ¿verdad? El de los sombreros, el de las botas, las monturas de caballo. Me decían: "Mando una", y mandaban 80 kilos con DHL. Entonces, se iba el paquete y luego, cuarenta y cinco días después, de repente, ¡pum!, el cliente nos debe 45 mil pesos.
 
-**[00:25:05] Hablante A:** no hombre hay gente que parece que esta fetar y se esta verificando
+**[00:19:40] Interlocutor:** Órale.
 
-**[00:25:09] Hablante B:** ah si mira
+**[00:19:41] Alfredo:** "¿Y el cliente?". "No, pues el cliente ya se enojó, ya no nos contesta". Así lo decía el vendedor. Pero ¿cómo? "No, así son los clientes". Y de repente, a los dos días, un cliente igualito, con otro nombre, haciendo el mismo giro.
 
-**[00:25:11] Hablante A:** osea atrás yo hice aquí el gallo o el gallo gotas y se esta verificando con el nombre de la persona
+**[00:20:00] Interlocutor:** No manches.
 
-**[00:25:18] Hablante B:** ya
+**[00:20:02] Alfredo:** Entonces decía: "Oye, uff". Junté varios y dije: "No, ¿sabes qué? Voy a hacer una auditoría". Y pues así. Este cliente… yo con él recomendaría no activarlo, ¿verdad?
 
-**[00:25:18] Hablante A:** entonces es un proceso muy antesalaje
+**[00:20:17] Interlocutor:** Claro.
 
-**[00:25:21] Hablante B:** expreso
+**[00:20:17] Alfredo:** Porque mira, este es revendedor. Aquí ya lo puse: este es su canal de ventas, y así me di cuenta. Así se ve la página completa, ¿verdad?
 
-**[00:25:23] Hablante A:** y es esta persona que me pune a ignorar Entonces, he estado poniendo, digamos, a guardar, ¿verdad? Ellos ya saben que aquí ellos pueden consultar cualquier duda que tengan, ¿verdad? Pero ya tienen las guías. Aquí en las preguntas frecuentes, ¿verdad? Aquí en las preguntas frecuentes, ¿verdad? ¿Tú habías pensado? Bueno, no. Entonces aquí en vez de, no pues queremos procesos, y le dice a un ejemplo, no mi trabajo está muy largo, bueno entonces le dice que más corto, no, está muy corto, entonces y llegan a 800 bits al mes entonces es un mundo entonces ellos viven en un mundo de dos meses entonces su venta es en dos meses entonces traen 1600 bits Después de esos dos meses ya no les cuenta la venta y se cuenta que ese cliente se hace muérfano. Aunque tenga ahí un safe bank, ese ya si es de SDR ya no va a apelar y entra a operaciones. Por eso me encanta aquí desde ese punto de vista. porque ya son clientes que ya pasaron por MDR hay veces que el cliente no hizo nada en esos dos meses y hacen campañas y les dicen a los de CDR los que prospectan oye, ahí tengo un cochecito prospectanos a ver si pego el chiste
+**[00:20:40] Interlocutor:** "Centro autorizado de envíos". Sí.
 
-**[00:27:39] Hablante B:** y ahí la gente por eso hay menos preguntas pero si andamos andamos muy de la mano con este cliente Pero aquí es donde está el grueso de operación, el MNR.
+**[00:20:45] Alfredo:** Está en Toluca.
 
-**[00:27:59] Hablante A:** Y es donde es todos los días.
+**[00:20:47] Interlocutor:** "Conectando América".
 
-**[00:28:04] Hablante B:** Esto es para activaciones más que nada.
+**[00:20:49] Alfredo:** Sí, o sea, este chavo vende esto.
 
-**[00:28:07] Hablante A:** Sí, o sea, el MNR son los que, por ejemplo, se registra una página y le cae al metrador.
+**[00:20:52] Interlocutor:** ¿Y sí venden?
 
-**[00:28:17] Hablante B:** Claro, para que active, deposite saldo.
+**[00:20:53] Alfredo:** Sí, venden muchísimo.
 
-**[00:28:21] Hablante A:** O sea, yo lo veo como una caja de Oxford. O sea, eso ahí llega, prácticamente la venta es reactiva. O sea, ella llega aquí, oye, para hacerme tu panorama de venta, y al final del día eso estaría muy bien. que desde que llegué, les dije oye, hagan un cierre, ¿verdad?
+**[00:20:55] Interlocutor:** Órale. Pues traen ahí casi dos millones. ¿Eso es histórico?
 
-**[00:28:44] Hablante B:** Dije, son 10, 8 personas, todos los días, todos los días, porque la página de envíes es una línea de producción que nunca se para. Entonces, llegan, ahorita salen a la casa y ahorita lo que hacen es, ah, y se va y listo y los días del día en que te digan ah mira todos los piques que se me quedaron el día anterior y los que se registraron en la noche
+**[00:21:03] Alfredo:** Es histórico. Se registró el 18 de enero del 24. Entonces, para este tipo de clientes, esto es una minita de oro, porque ellos nomás cobran su margen [?]…
 
-**[00:29:05] Hablante A:** entonces es un tema, y los lunes es una locura es porque se acumulan el sábado y no saben en que se quedaron entonces andan viendo a ver La realidad es que activan los clientes que los están buscando, no los que están, los que se registran. Entonces ahí por lo que creo es un tema de... y todo desde este canal digamos empieza el año y ya cuando me preguntan yo empiezo a checar si hay duplicados, si hay y me caen de mucho, por ejemplo ahorita ¿Qué pasa? son una bola de fraudulentos por ejemplo, de repente llevo conmigo a alguien de IBEX o sea que, estas personas están en un salvador de estafetas y están haciendo pagos de 10 pesos ¡Hala madre! pagos de 10 pesos pues lo que me queda es que algo no, o sea y lo que me llama la atención es que en algunos lados si se Los pecadores van a ser fraudes y no contestan ni nada. Pero hay unos que sí contestaron y tenían mucho más. Ninguno se validó. Hay unos que no tienen pagos. ¿Puedo? ¿Me da? aquí es lo que decide lo de las categorías y aquí se está alimentando digamos por así decir la lista negra entonces hay diferentes status en donde tienen ciertos accesos los clientes y cada vez que tienes un problema de conexión hay que ponerle una
+**[00:21:28] Interlocutor:** No hacen seguimiento.
 
-**[00:31:17] Hablante B:** Sin comentario. comentario.
+**[00:21:30] Alfredo:** No hacen seguimiento. Ellos nomás colocan la guía y no les importa si van a mandar medicamento controlado o lo que sea. Este cliente, la otra semana, mandó fertilizante y se derramó con Estafeta. Y Estafeta, obviamente, nos marcó, nos dijo, y yo lo bloqueé. Dije: "Pues no, a esta persona no hay que activarle nada". Pero mira, su primera guía fue el 23 de…
 
-**[00:31:36] Hablante A:** y aquí yo voy chequeando que onda está moviendo, que... y poquito más adelante a que cliente, ¿verdad? si algo no me suena, yo entro y no veo nada esto es una lente nueva, antes estaban haciendo cortes semanales pero se acumulan muchos, entonces... Aquí estoy viendo lo que están haciendo en el tema de SRAD. Antes de poner ahí, ¿en qué interés no contesta? SRAD. O sea, tampoco es así tan... Claro, claro. Tanto antes de SRAD, pero nosotros tuvimos un... revisamos todos esos clientes, las primeras dos o tres semanas, y los activamos con las paqueterías tier 2. O sea, las paqueterías tier 2. Aquí en el tema de paqueterías, las buenas de consumptivos ahora las que tienen mas movimiento pues es Fedex, DHL, Paquete Express, y Staffend las demás, yo les llamo Sintastil 2 pero aquí dentro están solo cotizadas pero aquí si le...
+**[00:22:07] Interlocutor:** El 24. Pero si, por ejemplo, el que le compra a este revendedor tiene preguntas de su guía, ¿no va con nosotros [?]?
 
-**[00:32:57] Hablante B:** aquí vienen todos los servicios
+**[00:22:22] Alfredo:** Él tiene una guía y puede consultar directo en la paquetería.
 
-**[00:32:59] Hablante A:** ok este botón es prácticamente en el mismo número de veces este botón no existe un lock entonces ya tenemos un lock antes no, antes decía Chatouille y yo lo desactivé y quién sabe quién lo movió y se mojó gente a la contentividad de puerta que desde ahora me parecía como muy Entonces ahorita es un proceso muy manual. La parte de... y tenemos este, ¿verdad? Este botón. Lo primero que he ido igual, o sea, sigo la misma. Abrir con Axel. Abrir con Axel. Bueno, antes de llegar a este... Y de fondo, bueno, esos son los de atención, esos de ventas y los de operación. Tenemos otro que es este. A mí me están cayendo, cuando vi el caso de uno que nos metió mucho clavo. dije, oye, a los operadores, ¿por qué le están revisando dinero aunque ya tienen el artículo? O sea, ¿y si nos debía 100 mil pesos? No, ma, y todavía un reembolso. Y le estaban dando reembolso. Y yo, ¿sabes qué? No. por favor, méteme en el flujo, entonces cada vez que yo logro un negativo, yo me meto, reviso la cuenta, reviso la cuenta que no esté duplicada, o sea, el mismo control que no esté duplicada, que no esté mandando a nadie acá, las guías, los pagos, todo, todo, todo, todo, y la autorrevo, ¿verdad? Entonces tuve que meter ahí porque en el onboarding, pues muy bien lo he checado, ¿verdad?, pero acá, en la parte de clics, pues, y luego hace un par de semanas le dije oye que estas haciendo le dije un tenedor no pues si que mucho rebotos y yo como que rebotos eh si si mucho rebotos y yo no osea porque tantos hoy nos llevamos mal 30 a la madre ya te vas a llevar unos 8
+**[00:22:29] Interlocutor:** Directo.
 
-**[00:35:31] Hablante C:** 1, 2, 3, 4, 5, 6
+**[00:22:30] Alfredo:** Con Estafeta. Él puede hacer aquí tickets, pero normalmente, como le sacan tanto dinero, no hace tickets, mira. Estafeta históricamente es la que tiene problemas, porque su proceso es muy, digamos, artesanal. Van escaneando, tienen una banda, entonces hay una cajota y ponen un sobrecito, y el sobrecito se va encima de la cajota, y escanean, y el registro de peso es el de abajo. Entonces dice: "Tu sobre pesa cincuenta kilos". Y el cliente normal dice: "Ticket". Siempre un cliente normal hace tickets.
 
-**[00:35:42] Hablante A:** Alcanza aquí al 10. más todos estos de acá entonces son muchos y si te fijas mira aquí pues ya un consecutivo de los clientes este cliente quien sabe por qué está aquí en su rompido social y adentro ¿Ese también? ¿O ese también? O sea, aquí pidió dos veces. Sí. Porque, o sea, ellos lo están mandando dos veces. Sí. Supuestamente van a cambiar el grupo del proceso de clínicos. porque yo soy un auditor que opera, tendría que haber un auditor que operara, yo estoy operando y eso lo debería estar haciendo alguien ajeno a mi área Porque si no, mi idea sería, oye, ¿por qué no se hizo un programa de contento? No, pues, no, estuvo muy mal, no, no, no, se pasó los procesos. Porque, o sea, yo lo estaba evitando, ¿verdad? O sea, yo lo autoricé, lo delfujo, y, o sea, entonces... hay un proceso en que Alcúrdia hoy está poniendo las letras y el tema del equipo operativo debe estar ya si, el equipo operativo no lo logró retener ahora si, pasa por diaria y dice vamos a revisarla pero ahorita está muy, está muy o sea, estoy metiéndome en operación aquí Y acá, ¿verdad? Claro. Y en el tema de este botón, yo platicé antes de que se fuera con este Axel, ¿verdad? No logré practicar, o sea, no logré sacarle a Axel el prompt ni la base de datos. O sea, ¿cómo sé que el prompt no tiene un filtro? Y decía yo, era acelerar el señal, no, no, que es que nada más lo tenemos nosotros. Pero quiero ver que no tenga un filtro, que no tenga algo, que no haga una búsqueda de toda la population que tenemos dentro de la base de datos.
+**[00:23:16] Interlocutor:** Claro.
 
-**[00:38:35] Hablante B:** Y lo mencionaba, y yo al final cuando estaba ahí no me dijo, no, es que es un modelo matemático.
+**[00:23:17] Alfredo:** Porque obvio, le estás cobrando de más. Y un cliente revendedor no hace tickets, ¿no? Pues no le da… es tanto el margen, yo creo. Hay gente a la que le gusta no hacer nada y vender caro.
 
-**[00:38:42] Hablante A:** es una buena solución, ¿no? Claro. Y luego le digo, oye, ¿y en la base de datos de dónde está sacando la información? Porque, o sea, puede ser que esté sacando la... no del todo, ¿verdad? Porque tú viste a Rayo, a Rayo, y dice, eh, ya está el reporte, ya vamos a tomar decisiones de lo que venga ahí, o sea, si aquí dice que es fraude, va a ser fraude, porque él dice, eh, ahí, y ahí,
+**[00:23:30] Interlocutor:** Claro.
 
-**[00:39:07] Hablante B:** no se equivoca, ¿verdad? Entonces... yo no, osea si lo uso, uso mucho este botón de aclaración de sesión de cuentas
+**[00:23:31] Alfredo:** Y te digo por qué me di cuenta de que es un revendedor. Mira, es un proceso súper… Aquí sale una persona. Primero nos dijo que vendía ropa; ahí está su canal [poco claro]. Vende ropa, muy bien. Pero aquí tiene otra verificación. Y así hemos agarrado varios, ¿eh? Es la misma persona, pero aquí atrás se veía… no sabíamos qué vendía, no tenía evidencia, pero estas letras las puse en Google, puse "reventa de guías" y ¡pum!, me salió el Facebook.
 
-**[00:39:16] Hablante A:** porque si me da un parecido a... pero por ejemplo hice un... por ejemplo este Hice este ejercicio con este cliente Y me salió por ejemplo su viana, su viana pues no hubo que se unpa al cliente Pero no entiendo porque una zapatería de león Entonces como que tiene algo de Tony super padre, super padre Y el verdad Tony está aquí en el sector, no sé que tiene que ver con una persona de león esta es su lema, si esta es su lema si vende zapatos entonces si lo uso de vía pero tengo que yo filtrarle si no mira este no, puede ser que no, por ejemplo este no se puede ser que si tenga algo de ese león entonces ya mas o menos, me lo se pero no debería ser si el reporte no el reporte debería venir y si viene aquí Pero no faltó hacer las programas con este...
+**[00:24:45] Interlocutor:** Ah, sí.
 
-**[00:40:50] Hablante B:** Con el Axel. Con el Axel, ¿verdad? Ok, sí, pues digo, le dejó todos los programadores allí. Aquí estamos.
+**[00:24:46] Alfredo:** Así lo encontré.
 
-**[00:41:00] Hablante A:** Aquí estamos. Pues como que la evidencia, ¿verdad? Entonces, cuando yo hice la auditoría, pues, pasé, pedí muchos tickets de retail. Oye, pásame la cartera de todos los clientes, la cartera de estos vendedores. Pásame las guías de todos los clientes. O sea, excederles un millón de datos. Y, pues, ahí pasó el mismo tiempo lo que venía a nivel guía, ¿verdad? Entonces, me gustaría que agarrara, sí, una prueba. O sea, si no, pues, sí. No sé. lo que dice, esta es la que estaba buscando yo para activar Internacional o nada este cliente quería videos internacionales y yo pues, trate de buscarlo o nada entonces por ejemplo Chulosa, creo que si más o menos tiene voz por ahí ese no lo tengo, creo sé que manda tu grabado pero este nos debe el tercero y si lo damos a ajustes le vamos a hacer lo mismo lo mismo de el último ajuste Se tardó aquí 23 días en cargar el sobrepeso.
+**[00:24:47] Interlocutor:** Órale.
 
-**[00:43:37] Hablante B:** ¡Órale!
+**[00:24:49] Alfredo:** Entonces, estaría muy bien que… pues cualquier dato. Y pues sí es esa persona.
 
-**[00:43:39] Hablante A:** O sea, si hubiéramos tenido mejor 5 días, hubiera dejado de hacer guías, porque se queda en salud positiva. entonces hay muchas cosas que podemos hacer
+**[00:24:59] Interlocutor:** Híjole, pero, hombre, cada cuánto hay letras así para buscar. Es bien único.
 
-**[00:43:59] Hablante B:** si quiero retomar lo de axel incluso este porque el proceso es ahorita de inteligencia artificial que vamos vamos a enlistar los que tienes que el primero es el que me enseñaba ahorita digo que va a axel decía que es un modelo matemático y ese Ese, sí. Ese es el nuevo que viste también ahí con Ray, ¿verdad?
+**[00:25:04] Alfredo:** No, hombre. Hay gente que atrás aparece Estafeta y se está verificando.
 
-**[00:44:23] Hablante A:** Sí. Ese está a nivel México, creo que no está... Ok. Y bueno, y ese tiene diferentes, digamos... O sea, tiene lo que es este, supuestamente, en tiempo real, se va haciendo casos, o sea, va checando lo que va cayendo y hace una como confirmación de lo que yo ya le subí aquí en casos confirmados. Entonces, si funciona...
+**[00:25:09] Interlocutor:** Ah, sí, mira.
 
-**[00:45:10] Hablante B:** Esos son casos confirmados de fraudes.
+**[00:25:11] Alfredo:** O sea, atrás aparece, no sé, "Gallo Botas", y se está verificando con el nombre de otra persona.
 
-**[00:45:13] Hablante A:** digamos hoy confirmar si aquí bueno pues si yo agarro todos hago un reporte de todos los que tienen status fraude y los cargo aquí deben empezar a detectar patrones de los que ya subí aquí
+**[00:25:18] Interlocutor:** Ya.
 
-**[00:45:30] Hablante B:** entonces yo aquí ya le diría a él si es fraude o no y ya poco a poco
+**[00:25:19] Alfredo:** Entonces es un proceso muy artesanal.
 
-**[00:45:37] Hablante C:** se iría digamos afinando la verdad pero nada más sería confirmar
+**[00:25:23] Alfredo:** Entonces, he estado poniendo, digamos, una guía [?], ¿verdad? Ellos ya saben que aquí pueden consultar cualquier duda que tengan. Aquí en las preguntas frecuentes puedes revisar… Ah, tengo que poner aquí. Entonces, en vez de "No, pues queremos procesos", les hice un ejemplo. "No, porque está muy largo". Bueno, entonces les hice uno más corto. "No, está muy corto". Entonces ya mejor les hice preguntas, y les cuesta.
 
-**[00:45:45] Hablante A:** ¿Cuál es el rock y de dónde está sacando la información? Porque eso fue... Cosas que no... Que no... O sea, cosas que están en una caja de... Pero... Como que no... Es como lo que me pasaba con lo que le daban. No, si todo está bien, es que se mojó. No, aquí queremos ver... Que a lo mejor, no sé si... si la persona que desarrolla, alguien más le puede hacer una prueba, decirles, sabes que, vamos a meternos aquí y vamos a ver una cuenta y vamos a poner un proceso de sucesión y a ver si identifica todas las que son raras. y a ver, y cuáles falsos positivos, no sabemos cuantos orenos puso ahí, o cuantos, no sé, clientes buenos, que sabemos que sí son buenos
+**[00:26:33] Interlocutor:** Pues sí, claro.
 
-**[00:46:44] Hablante C:** los pone ahí, y por qué, para empezar a...
+**[00:26:35] Alfredo:** No tienen tiempo, ¿verdad? Porque a una persona de MDR le llegan ochocientos leads al mes. Es un mundo, ¿verdad? Entonces ellos viven en un mundo de dos meses: su venta es en dos meses. Entonces traen mil seiscientos leads. Después de esos dos meses ya no les cuenta la venta, y haz de cuenta que ese cliente se hace huérfano. Aunque tenga ahí [poco claro], ese ya, si es de SDR, ya no lo va a pelar, y entra a Operaciones. Por eso me caen aquí los de chat, porque ya son clientes que pasaron por MDR. Hay veces que el cliente no hizo nada en esos dos meses, y hacen campañas y les dicen a los de SDR, los que prospectan: "Oye, ahí tengo un bonchecito, prospéctalos, a ver si pegan".
 
-**[00:46:47] Hablante A:** entonces ya que hagamos esa prueba, ya lo podemos poner ahí, entonces yo cada vez que recibo una solicitud en vez de hacer todos los procesos manuales, o sea, yo, como se inclusive una solicitud aquí,
+**[00:27:39] Interlocutor:** Ya.
 
-**[00:47:01] Hablante B:** Claro.
+**[00:27:40] Alfredo:** Y por eso hay menos preguntas, pero sí andamos muy de la mano: "Este cliente, ayúdame". Pero aquí es donde está el grueso de la operación, en MDR.
 
-**[00:47:02] Hablante A:** Eh, ah, ¿quieren mandar algo aquí? Yo agarré el número del cliente, y lo mandé acá, y si me aparece algo parecido, adivinale, a ver, a ver, y además me metería a ver cómo está el Zoom Zoom, y si nada más haría el salto de la visión, ya sería más ágil, ¿no?
+**[00:27:59] Interlocutor:** Claro.
 
-**[00:47:23] Hablante B:** Claro, claro, ok.
+**[00:28:02] Alfredo:** Todos los días.
 
-**[00:47:24] Hablante A:** Ya sería más ágil y yo ya sería el libro. Eso es una, ¿verdad? Y hay que también meterle las palabras clave, ¿verdad? Aquí, ahorita, o sea, cerrarle las palabras clave de entrada al cliente, a lo mejor, no creo que... No creo que esté mal, o sea que la ruida está bien, pero que nos manden una alerta, ¿verdad? Pero no están como se llama...
+**[00:28:04] Interlocutor:** Esto es para activaciones, más que nada.
 
-**[00:48:02] Hablante B:** Si, están por todos lados.
+**[00:28:06] Alfredo:** Sí. MDR son los que, por ejemplo, alguien se registra en la página y le cae al vendedor.
 
-**[00:48:04] Hablante A:** Si, no, mira, aquí puso gas. No, o sea, me imagino que lo pusieron por gas comprimido, ¿no? Aquí tenían un tema con productos de limpieza.
+**[00:28:17] Interlocutor:** Claro, para que active, deposite saldo.
 
-**[00:48:16] Hablante B:** pero lo marque como bajo, como low.
+**[00:28:21] Alfredo:** O sea, yo los veo como una caja de OXXO. Alguien llega; prácticamente la venta es reactiva. "Oye, pásame tu venta". Y al final del día… desde que llegué les dije: "Oye, háganle un cierre". Son ocho personas todos los días, porque la página de Envía es una línea de producción que nunca se para. Entonces llegan, ahorita cierran la caja, y lo que hacen es ¡pac!, se van, y listo. Y al otro día: "Ah, mira, todos los clientes que se me quedaron del día anterior y los que se registraron en la noche".
 
-**[00:48:18] Hablante A:** Sí. Y nada, ahorita yo no sé si nadie está checando eso.
+**[00:29:04] Interlocutor:** Sí.
 
-**[00:48:23] Hablante B:** Ok.
+**[00:29:05] Alfredo:** Entonces es un tema. Y los lunes es una locura, porque…
 
-**[00:48:24] Hablante A:** Entonces, a lo mejor no sé si sería bueno ponerlo acá en todo un lugar, ¿verdad? algo por una cara y que diga ácidos, productos de limpieza, insumos de abeja, cosas que nosotros sabemos. Hay muchos, por ejemplo, hay muchos clientes que me di cuenta que son la misma persona porque utilizaban la misma nomenclatura en el contenido.
+**[00:29:08] Interlocutor:** Se acumulan.
 
-**[00:48:54] Hablante C:** ponían, hay una marca de botas muy famosa ahí, llama Liz Escobar, y lo ponían, Liz Escobar,
+**[00:29:08] Alfredo:** Sí, del sábado, y no saben en qué se quedaron. La realidad es que activan a los clientes que los están buscando, no a los que se registran.
 
-**[00:49:04] Hablante B:** y muchas cuentas diferentes, supuestamente al cliente de Vendred, y lo bueno, pues que Liz Escobar, y ahí me di cuenta, pues es que son las mismas personas, son días, entonces, aquí hay que irnos.
+**[00:29:20] Interlocutor:** Okey.
 
-**[00:49:21] Hablante A:** Mira, Guapto, ¿sabes qué? El que a mí me... Desde la palabra, o sea... Desde que llegué, le dije, oye, este no está bien. Me dijo, no, ¿qué haces?
+**[00:29:21] Alfredo:** Entonces, por eso mi tema… Y todo desde este canal, digamos, empieza. Y de acuerdo a la pregunta, yo empiezo a checar si hay duplicados, y me caen muchos, ¿no? Por ejemplo, ahorita. Mira, todos estos son una bola de fraudulentos. De repente llegó conmigo alguien de [poco claro] y me dice: "¿Sabes qué? Estas personas se roban varias tarjetas y están haciendo pagos de 10 pesos". ¡A la madre! Pagos de 10 pesos: pum, pum, pum, pum. Pues lo que me quedaba era un caos, ¿no? Y lo que me llama la atención es que los que van a hacer fraude no te contestan ni nada.
 
-**[00:49:38] Hablante B:** Paola Reven. ¿Cómo se llama?
+**[00:30:27] Interlocutor:** Claro.
 
-**[00:49:42] Hablante A:** Sí, sí, sí.
+**[00:30:30] Alfredo:** Pero hay unos que sí contestaron, y tenían mucho más tiempo. Ninguno se validó, ninguno se validó. Hay unos que no tienen pagos. Mira, aquí era lo que decía de las categorías. Y de aquí se está alimentando, por así decir, la lista negra. Hay diferentes estatus en donde los clientes tienen ciertos accesos, y cada vez que tienes un problema con un cliente hay que ponerle un…
 
-**[00:49:43] Hablante B:** Sí, claro. Mira, mamá. Mira, Juan José. A la madre. Hombre.
+**[00:31:17] Interlocutor:** Sí, un comentario.
 
-**[00:49:50] Hablante A:** y de ahí salió todo de ahí empezaron a creer no, si es que si tiene razón y digo oye como una persona, o sea sin ser como si, o sea una persona así nos hizo caso tan fácil, o sea tan fácil
+**[00:31:18] Alfredo:** Un comentario. Y aquí tenemos una alerta. Aquí yo voy checando quiénes están moviendo qué, y un poquito más arriba, a qué clientes, ¿verdad? Si algo no me suena, entro y lo veo. Esta es una alerta nueva. Antes estaban haciendo cortes semanales, pero se acumulaban muchos. Aquí estoy viendo lo que están haciendo. A ver, antes le ponían: "El cliente no contesta" → fraude. O sea, tampoco es así tan…
 
-**[00:50:09] Hablante B:** ¿Esta que fecha es? es reciente es reciente
+**[00:32:17] Interlocutor:** Claro, claro. Tan tajante.
 
-**[00:50:13] Hablante A:** su última guía fue 7 días después de que entré entonces
+**[00:32:19] Alfredo:** Nosotros revisamos todos esos clientes las primeras dos, tres semanas, y los activamos con las paqueterías Tier 2. Aquí tengo las paqueterías. Las buenas de nosotros, o sea, las que tienen más movimiento, son FedEx, DHL, Paquete Express y Estafeta. A las demás yo les llamo Tier 2. Aquí dentro están solo para cotizar, pero aquí vienen todos los servicios.
 
-**[00:50:16] Hablante B:** ya No manches, órale Y el caso aquí, ¿cuál fue igual? ¿Sobrepesos? Todos, mira
+**[00:33:01] Interlocutor:** Okey.
 
-**[00:50:23] Hablante A:** Sobrepesos pero muy internacionales
+**[00:33:02] Alfredo:** Este botón [poco claro]. No existía un "block"; ya tenemos un "block". Antes no, antes decía "Chatbot", y yo lo desactivé.
 
-**[00:50:26] Hablante B:** Todos, todos, todos, todos, todos. Todos, todos, todos. Como que dijo, me va a declarar un kilo, aquí no revisa nada.
+**[00:33:23] Interlocutor:** Y quién sabe si…
 
-**[00:50:32] Hablante A:** Mira, fíjate, una forma en la que nos damos cuenta es accesorios 15x15x15. Todos, todos, todos, todos, todos. Ahí ya la chava se dejó caer. Como que al principio nos dejó... Al principio las ideas se las hacía, ah no, le cambiaba, ¿verdad? 15x15x17, lo 18.
+**[00:33:24] Alfredo:** Y quién sabe quién lo movió, y se movió gente, ¿no? Me parecía como con muchas coincidencias. Entonces, ahorita es un proceso muy manual. Y tenemos este botón. No lo he querido [usar] igual; sigo en las mismas. Hablé con Axel. Bueno, antes de llegar a este: aquí tengo otro grupo. Estos son los de atención, este el de ventas y los de operación, y tenemos otro, que es este. Cuando vi el caso de uno que nos metió mucho fraude, dije: "Oye, los de operaciones, ¿por qué le están regresando dinero a un cliente que ya tiene negativo?". O sea, el cliente nos debía 100 mil pesos.
 
-**[00:50:55] Hablante B:** Y luego ya
+**[00:34:35] Interlocutor:** No, ma… ¿y todavía un reembolso?
 
-**[00:50:57] Hablante A:** Y luego después, ¡pum!
+**[00:34:37] Alfredo:** Y le estaban dando reembolsos. Y dije: "¿Sabes qué? No. Por favor, méteme en el flujo". Entonces, cada vez que veo un negativo, me meto, reviso la cuenta: que no esté duplicada —el mismo control—, que no esté mandando nada ilegal, las guías, los pagos, todo. Y le hago prueba de pago. Me tuve que meter ahí porque en el onboarding lo checaba muy bien, pero acá, en la parte de claims [?], no. Y hace un par de semanas le dije: "Oye, ¿qué estás haciendo?". "No, pues hice muchos reembolsos". "¿Cómo que reembolsos?". "Sí, hice muchos reembolsos". "¿Por qué tantos? Hoy nos llegaron más de 30". ¡A la madre! Déjame contarlos.
 
-**[00:51:00] Hablante B:** 820 registros en sobreventa No, hombre
+**[00:35:32] Interlocutor:** Uno, dos, tres, cuatro, cinco, seis, siete, ocho…
 
-**[00:51:02] Hablante A:** Primero empezó así
+**[00:35:39] Alfredo:** …nueve, diez. Hasta aquí van diez. Dos, tres, cuatro… once. Más todos los de acá. Entonces son muchos. Y si te fijas, aquí ya van consecutivos los clientes. Este cliente, quién sabe por qué está repitiendo esos ingresos si ya está en negativo. Este también, este también. Aquí pidió dos veces. No sé por qué [poco claro] nos está mandando dos veces. Supuestamente va a cambiar el flujo del proceso de claims. Porque yo ahorita soy un auditor que opera.
 
-**[00:51:05] Hablante B:** Sí Ah, bueno, sí declaraba más Y luego se empezó a dar cuenta que no se monitoreaba Y ahí no se pudo Y luego empezó ahí se equivocó
+**[00:36:50] Interlocutor:** Claro.
 
-**[00:51:18] Hablante A:** y cuando te digo que nos vamos a unir el día a estos datos aquí aquí aparece el nombre de la empresa y el nombre de la persona y a veces
+**[00:36:51] Alfredo:** Tendría que haber un auditor del auditor, ¿verdad? Yo estoy operando, y eso lo debería estar haciendo alguien ajeno a mi área. Porque si no, luego: "Oye, ¿por qué no se detectó este fraude a tiempo [?]?". "No, pues estuvo muy mal, se pasaron los procesos". Pues yo lo estaría auditando, y yo autoricé el flujo. Entonces, ahí hay un proceso en el que Adalberto está poniendo las reglas, y el equipo operativo debe estar… Si el equipo operativo no lo logró retener, ahora sí pasa por mi área y decimos: "Vamos a revisarlo". Pero ahorita estoy metiéndome en operación aquí, y acá, y acá, ¿verdad?
 
-**[00:51:34] Hablante C:** la gente hace una parte nueva pero deja el nombre del anterior entonces, oye, ¿cómo que este se llama así igual que el otro? y empecé, no, pues es que, como que nadie está diciendo, no, es que sí, esas son las cosas, esas son las gentes ponen así las líneas, no, no, es que no, no puede ser así
+**[00:37:51] Interlocutor:** Claro.
 
-**[00:51:57] Hablante A:** Entonces, este es el cliente por el que a la voz fuerza me da miedo.
+**[00:37:52] Alfredo:** Y en el tema de este botón, yo platiqué antes de que se fuera con… este es de Axel, ¿verdad? No logré sacarle a Axel el prompt ni la base de datos. ¿Cómo sé que el prompt no tiene un filtro? Le decía yo a Axel: "A ver, enséñame el prompt". "No, es que no lo tenemos nosotros". "Pero quiero ver que no tenga un filtro, que no tenga algo, que sí haga una búsqueda de toda la población que tenemos dentro de la base de datos". Y ya al final me dijo: "No, es que es un modelo matemático".
 
-**[00:52:07] Hablante B:** Ya. Sí, nada más.
+**[00:38:42] Interlocutor:** A ver… es una o es otra, ¿no?
 
-**[00:52:09] Hablante A:** Ya lo tenemos claro, pero cuando pasó esto, como quiero ir, no, pues es que sí. Y fíjate, no es una prueba de luz, de la justicia. Mira, es máximo hacer esto, la última línea es 25 de mayo. Y ajuste. No manches, mira.
+**[00:38:44] Alfredo:** Claro. Y luego le digo: "Oye, ¿y de dónde está sacando la información de la base de datos?". Porque puede ser que no la esté sacando del todo, ¿verdad? Porque tuviste a Ray, y va Ray y dice: "Ya está el reporte, y ya vamos a tomar decisiones con lo que venga ahí". O sea, si aquí dice que es fraude…
 
-**[00:52:33] Hablante B:** El 1 de octubre, pero eso qué significa?
+**[00:39:03] Interlocutor:** Claro, va a ser fraude, porque ahí lo dice la IA. Y la IA se equivoca, ¿no?
 
-**[00:52:35] Hablante A:** Significa que alguien que se llama Adalberto le subió un ajuste.
+**[00:39:09] Alfredo:** Ahí está. Entonces, sí lo uso. Uso mucho este botón de asociación de cuentas, porque sí me da parecidos. Por ejemplo, hice este ejercicio con este cliente… No, este no, quiero ver el resultado. Este. Y me salió, por ejemplo, Soriana. Soriana, pues no dudo que sea un buen cliente, ¿verdad? Pero no entiendo qué tiene que ver con una zapatería de León. Y como que tiene algo de Tommy Hilfiger… No sé qué tiene que ver con una persona de León. Este es su lema: "Sigue mi zapato" [?]. Entonces, sí lo uso de guía, pero yo lo tengo que filtrar y decir: "Este no, este no". Este, no sé, puede ser que sí tenga algo que ver: es de León. Más o menos me lo sé, pero no debería ser así. El reporte debería venir con el porqué. Me faltó hacer las pruebas con…
 
-**[00:52:49] Hablante B:** pero qué es decir que alguien le subió un ajuste después de que el cliente hizo 5 meses de mes sin
+**[00:40:50] Interlocutor:** Con Axel.
 
-**[00:52:57] Hablante A:** después qué cuando se está guiando, porque puede ser que sigan yendo a ajuste. Es que sí está medio... Está medio complejo. no el ajuste que le metió fue de esta guía
+**[00:40:51] Alfredo:** Con Axel, ¿verdad? Lo que sí, le dejó todo a los programadores ahí. Aquí está la evidencia, ¿verdad? Cuando hice la auditoría, pedí muchos tickets de BI [?]: "Oye, pásame la cartera de todos los clientes de estos vendedores. Pásame las guías de todos sus clientes". O sea, un Excel de un millón de datos. Y ahí fui viendo lo que venía a nivel guía, ¿verdad? Entonces, me gustaría que lo agarrara así. Esta es la que estaba buscando yo para activar internacional, ¿verdad? Este cliente quería envíos internacionales y traté de buscarlo. Por ejemplo, [poco claro], creo que sí tiene negocio por ahí.
 
-**[00:53:23] Hablante B:** de una guía de mayo
+**[00:42:00] Interlocutor:** Es de [poco claro], creo.
 
-**[00:53:24] Hablante A:** o sea quiere decir que todavía van a quedar más ajustes entonces si tú lo ves así Si nosotros fuéramos una empresa de manufactura, de cualquier otra empresa, eso aquí es la merma, la merma de nuestro proceso. Quiere decir que aquí en América, aquí en teoría son taxas. Entonces, quiere decir que los impuestos de esa guía... Siguen llegando. ...llegaron en esta factura...
+**[00:42:03] Alfredo:** [poco claro] Está bien complicado esto. Y si nos vamos a ajustes, vamos a hacer lo mismo. El último ajuste fue el 22 de julio. Se tardó aquí veintitrés días… veintitrés días en cargar el sobrepeso.
 
-**[00:54:01] Hablante B:** Cinco meses después.
+**[00:43:38] Interlocutor:** Órale.
 
-**[00:54:02] Hablante A:** ...y esta persona lo cargó este día. Habrá que ver cuándo llegó esta factura, porque yo he detectado que el equipo de costos, todas las facturas, las dejé. Entonces, aquí nos dimos cuenta que... había hasta malas prácticas o sea, a que me refiero es eeeh había team leaders comerciales que le decían a Alberto oye Alberto, las facturas que llegan a la última semana del mes no me las cargues, los ajustes, porque me vas a bajar las comisiones eso es suado de... si, si, si o sea, porque me vas a aplicar a mi en mis comisiones, o sea claro o sea, no entonces... tenemos mucho, mucho, pues...
+**[00:43:39] Alfredo:** O sea, si hubiéramos tenido los cinco días, hubiera dejado de hacer guías, porque sí cae en saldo negativo [?].
 
-**[00:55:08] Hablante B:** Ok, no, pero definitivamente ha disminuido muchísimo desde que entraste en mayo, ¿qué fue, no? Abrir...
+**[00:43:51] Interlocutor:** Okey.
 
-**[00:55:16] Hablante A:** Sí, pero por ejemplo, mira, sigue llegando Overweight, mira, bueno, a ver su reacción. Entonces, gracias a Dios, no hemos tenido más nuestros, o sea, más nuestros clientes así. Pero, o sea, hay muchos ejemplos, muchos ejemplos.
+**[00:43:51] Alfredo:** Entonces, hay muchas cosas que podemos hacer, la verdad.
 
-**[00:55:35] Hablante B:** Claro, claro.
+**[00:43:59] Interlocutor:** Sí, quiero retomar lo de Axel, porque a ver: procesos ahorita de inteligencia artificial… vamos a enlistarlos. Los que tienes: el primero es el que me enseñabas ahorita, que Axel decía que es un modelo matemático. Y ese… ese es el nuevo que viste también con Ray, ¿va?
 
-**[00:55:38] Hablante A:** Que, no sé, o sea, el, digamos, el común denominador es, no sé si a la chapa de... ¿Tú le preguntabas al pendeor, eh? ¿Qué onda con este...? No, pues se enoja, si la besoja. No, pues no, no puede ser, no puede ser. Yo me tengo que estar haciendo, ah, no te reportas. Entonces, llego aquí y la zapalo acá.
+**[00:44:23] Alfredo:** Sí. Está a nivel México, creo. Y este tiene diferentes, digamos, costados. Supuestamente, en tiempo real, va haciendo casos…
 
-**[00:56:12] Hablante B:** La zapalas ahí, sí. Sí.
+**[00:44:54] Interlocutor:** Ajá. Va checando lo que va cayendo.
 
-**[00:56:14] Hablante A:** Y obviamente, como aquí en el tubo, y la zapalo por esto. Entonces, pues sí, no hay duda, porque no sé si en realidad están haciendo el buen uso, o sea, si están haciendo los términos de condición, si no están armando la obra o se va. Entonces, lo que le digo, pues a nuestra ventaja... pues una de nuestras ventajas, yo creo que la relación con las paqueterías,
+**[00:44:57] Alfredo:** Sí. Y hace como una confirmación de lo que yo ya le subí aquí en casos confirmados. Entonces, si funciona…
 
-**[00:56:46] Hablante B:** a nivel de la repartencia, a nivel de gusto, tiene relación como nosotros con las paqueterías. No, total, y lo decía Nadia, primero las paqueterías antes que cualquier cliente, o sea, cuidar esa relación.
+**[00:45:10] Interlocutor:** Esos son casos confirmados de fraude.
 
-**[00:56:59] Hablante A:** Entonces hay mucho, mucho, podríamos,
+**[00:45:14] Alfredo:** Confirmados, sí, aquí. Bueno, si yo saco un reporte de todos los que tienen estatus "fraude" y los cargo aquí, debe empezar a detectar patrones de los que ya le subí.
 
-**[00:57:04] Hablante B:** Yo creo que sí, mira, se me ocurre lo siguiente, porque ahorita esta semana y la que sigue voy a seguir con One on One sin estarme empapando y en realidad obviamente me pido ayuda urgente antes de la temporada alta con el Respond justo, con el soporte, sí, y en realidad se pone muy mal humor cada vez que se mete aquí y lee los mensajes. a la par con los developers, yo creo que podemos empezar, porque pues si es prioridad todo el tema este que tú traes. Entonces, déjame nada más terminar como de incorporarme. Y empezamos. O sea, empezamos con estas pruebas y error y qué funciona y qué no funciona hasta darle en el clavo.
+**[00:45:30] Interlocutor:** Entonces, aquí ya le dirías si es fraude o no, y poco a poco se iría afinando, ¿verdad?
 
-**[00:57:47] Hablante A:** Sí, yo te diría que aquí, aquí te das cuenta con este grupo, siempre van a ir, Esto, esto, chaval. Esto, chaval. Esto, chaval.
+**[00:45:38] Alfredo:** Pero lo normal sería confirmar cuál es el modelo [?] y de dónde está sacando la información, porque, güey, son cosas que están en una caja negra.
 
-**[00:58:16] Hablante B:** Increíble que más de 100 llamadas no tengan un ejecutivo disponible.
+**[00:46:02] Interlocutor:** Sí.
 
-**[00:58:20] Hablante A:** la atención del whatsapp es nula, si pues es que, que tiene esa persona? de 3 mil pesos entonces, quieres mandar internacional 3 mil pesos te congelan en tu cuenta para que puedas usar la plataforma el no nos quiso pagar entonces estuvo hablando y hablando pero hizo el ticket en viernes O sea, es media verdad, media mentira, ¿verdad? Pero en el chat, en el respond, se ve como este cliente batalla con la inteligencia artificial
+**[00:46:03] Alfredo:** Es como lo que me pasaba con [poco claro]: "No, todo está bien". No. Aquí queremos ver… No sé si la persona que lo desarrolla, u otra persona, le puede hacer una prueba y decir: "¿Sabes qué? Vamos a meternos aquí, vamos a agarrar una cuenta, vamos a correr un proceso de asociación y a ver si identifica todas las que son raras".
 
-**[00:59:07] Hablante B:** y dice, oye, me está escribiendo y... Y nada, no, no, no, sí, por eso, sí, empezó por ahí.
+**[00:46:30] Interlocutor:** Ya.
 
-**[00:59:13] Hablante A:** Hay muchos, ¿verdad? Muchos como este. Y la primera llamada de atención que tuvimos era de alguno que se llamaba Fajas Colombianas. Oye, es que el área de RIS que estaban bloqueando, yo no, espérame, ¿cómo estuvo? Pues no, estuvo todo el día hablando con la guía este de Fajas Colombianas y nunca pudo hablar con una persona. Entonces no era tema de que lo estuvieran bloqueando, entonces yo creo que Una cosa que yo les pediría es que se empapen tus desarrolladores, no sé si... tus desarrolladores o los traders o todos que entiendan el proceso porque si no lo entienden al 100% probablemente va a quedar algo ahí volando o no. Claro. Ahí a lo mejor que, a lo mejor que ahorita, yo como me voy a volar los cinco meses que vivo aquí, el equipo decide a veces tienen iniciativas y no toman en cuenta a la operación.
+**[00:46:31] Alfredo:** Y a ver cuáles son falsos positivos, ¿no? O sea, cuántos clientes buenos, que sabemos que sí son buenos, pone ahí, y por qué, ¿verdad? Para empezar a… Ya que hagamos esa prueba, ya lo podemos poner ahí. Entonces, cada vez que recibo una solicitud, en vez de hacer todos los procesos manuales, recibo una solicitud aquí…
+
+**[00:47:01] Interlocutor:** Claro.
+
+**[00:47:02] Alfredo:** "Este me quiere mandar algo". Yo agarraría el número de cliente y lo pondría acá. Y si me aparece algo parecido, ahí le diría: "A ver, espérame". Y además me metería a ver cómo está en Sumsub. Y nada más haría esas dos revisiones; ya sería más ágil.
+
+**[00:47:23] Interlocutor:** Claro, claro. Okey.
+
+**[00:47:24] Alfredo:** Sería más ágil. Eso es una, ¿verdad? Y también hay que meterle las palabras clave. Aquí ahorita… cerrarle las palabras clave de entrada al cliente, a lo mejor no creo que esté bien; abrirlo está bien, pero que nos mande una alerta, ¿verdad? Sí hay alertas ahorita, hay muchas alertas, pero no son… A ver dónde está. Esta. Pero no está… ¿cómo se llama?
+
+**[00:48:02] Interlocutor:** Sí, están por todos lados.
+
+**[00:48:04] Alfredo:** Ah, sí, mira. Aquí puso "gas". Me imagino que lo pusieron por gas comprimido, ¿no? Aquí tenían un tema con productos de limpieza, pero lo marcaron como bajo, como *low*. Y yo creo que ahorita nadie está checando eso.
+
+**[00:48:23] Interlocutor:** Okey.
+
+**[00:48:24] Alfredo:** Entonces, no sé si sería bueno ponerlo en un solo lugar, ¿verdad? Algo [poco claro] que diga: "ácidos, productos de limpieza, insumos de alberca", cosas que nosotros sabemos. Hay muchos clientes que me di cuenta de que son la misma persona porque utilizaban la misma nomenclatura en el contenido. Hay una marca de botas muy famosa ahí, se llama Liz Escobar [?], y ponían "Liz Escobar" en muchas cuentas diferentes, supuestamente clientes diferentes. Y ahí me di cuenta. Digo: "No, pues es la misma persona, son ellas". Entonces, mira, lo óptimo sería… Desde que llegué les dije: "Oye, esto no está bien". Me dijeron: "No, pues qué onda, se ve bien".
+
+**[00:49:38] Interlocutor:** ¿Paola Reventa [?]?
+
+**[00:49:39] Alfredo:** De cómo se llamaba, ¿verdad? Sí, sí, sí. Chingue su madre.
+
+**[00:49:43] Interlocutor:** Sí, claro.
+
+**[00:49:44] Alfredo:** Mira nada más. Mira cuántos…
+
+**[00:49:46] Interlocutor:** A la madre, hombre.
+
+**[00:49:50] Alfredo:** Y de ahí salió todo. De ahí empezaron a creer: "No, pues sí, tienes razón". Y les digo: "Oye, ¿cómo una persona así nos hizo fraude tan fácil?". Tan fácil.
+
+**[00:50:09] Interlocutor:** ¿Esta de qué fecha es?
+
+**[00:50:10] Alfredo:** Es reciente. Mira, su última guía fue siete días después de que entré.
+
+**[00:50:16] Interlocutor:** Ya. No manches, órale. ¿Y el caso aquí cuál fue? ¿Igual sobrepesos?
+
+**[00:50:22] Alfredo:** Todos, mira. Sobrepesos, pero internacionales. Todos, todos, todos. Como que dijo: "Voy a declarar un kilo; aquí no revisan nada". Y mira, fíjate, una forma en la que nos damos cuenta también es: "Accesorios, 15 × 15 × 15". Todos, todos, todos. Ahí ya la chava se dejó caer. Al principio, en las primeras diez, le cambiaba, ¿verdad?: 15 × 15 × 17, luego 18…
+
+**[00:50:55] Interlocutor:** Y luego ya…
+
+**[00:50:57] Alfredo:** Y luego después, ¡pum!
+
+**[00:50:59] Interlocutor:** Ochocientos veinte registros con sobrepeso. No, hombre.
+
+**[00:51:02] Alfredo:** Mira, primero empezó así.
+
+**[00:51:05] Interlocutor:** Ah, bueno, sí declaraba más.
+
+**[00:51:09] Alfredo:** Sí declaraba. Y luego se empezó a dar cuenta de que no se monitoreaba…
+
+**[00:51:13] Interlocutor:** Y ahí lo dejó.
+
+**[00:51:14] Alfredo:** Y luego empezó… ahí se equivocó. Y cuando te digo que nos fijemos en estos datos, aquí…
+
+**[00:51:28] Interlocutor:** Sí.
+
+**[00:51:29] Alfredo:** Aquí aparece el nombre de la empresa…
+
+**[00:51:31] Interlocutor:** Claro.
+
+**[00:51:32] Alfredo:** …y el nombre de la persona. Y a veces la gente hace una cuenta nueva, pero deja el nombre de la anterior. Entonces: "Oye, ¿cómo que este se llama igual que el otro?". Y empecé: "¿Cómo que nadie está viendo esto?". "No, es que sí, así son las cosas, así son los clientes". Y yo: "No, es que no puede ser así".
+
+**[00:51:57] Alfredo:** Entonces, este es el cliente por el que agarró fuerza [poco claro].
+
+**[00:52:07] Interlocutor:** Ya. Sí, además…
+
+**[00:52:09] Alfredo:** O sea, ya lo tenía mapeado, pero cuando pasó esto, dije: "No, pues es que sí". Y fíjate, esta es la prueba de lo del ajuste. Mira, es más, fíjate en esto: la última guía, el 25 de mayo. Y el ajuste… No manches, mira.
+
+**[00:52:33] Interlocutor:** El primero de octubre. Pero ¿eso qué significa?
+
+**[00:52:36] Alfredo:** Significa que alguien que se llama Adalberto le subió un ajuste…
+
+**[00:52:49] Interlocutor:** Pero ¿qué…?
+
+**[00:52:50] Alfredo:** Otra vez. Quiere decir que alguien le subió un ajuste cinco meses después de que el cliente hizo una guía.
+
+**[00:53:00] Interlocutor:** Mmm, okey.
+
+**[00:53:01] Alfredo:** Entonces, vamos a ver de cuándo es esta guía, porque puede ser que sigan llegando ajustes. Es que sí está medio complejo el sistema de ajustes. El ajuste que le metió fue de esta guía…
+
+**[00:53:23] Interlocutor:** De una guía de mayo.
+
+**[00:53:25] Alfredo:** O sea, quiere decir que todavía le van a caer más ajustes. Entonces, si tú lo ves así, si nosotros fuéramos una empresa de manufactura o de cualquier otro tipo, esto de aquí es la merma. La merma de nuestro proceso. Aquí todavía son *taxes*, o sea, quiere decir que los impuestos de esa guía…
+
+**[00:53:56] Interlocutor:** Siguen llegando.
+
+**[00:53:57] Alfredo:** …llegaron en esta factura…
+
+**[00:54:01] Interlocutor:** Cinco meses después.
+
+**[00:54:03] Alfredo:** …y esta persona lo cargó este día. Ahora hay que ver cuándo llegó esta factura, porque yo he detectado que el equipo de costos guarda sus facturas. Entonces, aquí nos dimos cuenta de que había hasta malas prácticas. ¿A qué me refiero? Había team leaders comerciales que le decían a Adalberto: "Oye, Adalberto, las facturas que lleguen en la última semana del mes no me las cargues —los ajustes—, porque me vas a bajar las comisiones".
+
+**[00:54:50] Interlocutor:** Eso es algo de…
+
+**[00:54:51] Alfredo:** Sí, sí, sí. "Porque me vas a afectar a mí en mis comisiones".
+
+**[00:54:56] Interlocutor:** Claro. No, o sea, no.
+
+**[00:55:01] Alfredo:** Entonces tenemos mucho, mucho…
+
+**[00:55:09] Interlocutor:** Okey. No, pero definitivamente ha disminuido muchísimo desde que entraste. ¿En mayo fue, no? ¿O abril?
+
+**[00:55:15] Alfredo:** En mayo, sí. Pero, por ejemplo, mira, siguen llegando *overweights*. Ah, mira, bueno: *address correction*. Gracias a Dios no hemos tenido más clientes así. Pero hay muchos ejemplos, muchos ejemplos.
+
+**[00:55:35] Interlocutor:** Claro, claro.
+
+**[00:55:37] Alfredo:** El común denominador es que no se hacía la chamba. Y tú le preguntabas al vendedor: "¿Qué onda con este?". "No, pues si le hablo, se enoja". Y yo: "No, no puede ser". Ahorita lo que estoy haciendo es: "Ah, ¿no te reportas?". Entonces llego aquí y les apago [las paqueterías] acá.
+
+**[00:56:12] Interlocutor:** Les apagas, sí.
+
+**[00:56:14] Alfredo:** Y obviamente es como: "Oye, tú estás pagando por esto". Entonces, no hay de otra, porque no sé si en realidad están haciendo buen uso, si están siguiendo los términos y condiciones, o si están armando algo raro.
+
+**[00:56:32] Interlocutor:** Claro.
+
+**[00:56:33] Alfredo:** Entonces, lo que le digo: una de nuestras ventajas hoy en día, yo veo, es la relación con las paqueterías. Nadie a nivel industria tiene la relación que tenemos nosotros con las paqueterías.
+
+**[00:56:46] Interlocutor:** No, total. Y lo decía Nadia: primero las paqueterías, antes que cualquier cliente, ¿no?
+
+**[00:56:57] Alfredo:** Sí, cuidar esa relación. Entonces hay mucho, mucho que podríamos…
+
+**[00:57:04] Interlocutor:** Yo creo que sí. Mira, se me ocurre lo siguiente: ahorita, esta semana y la que sigue, voy a seguir con *one on ones* y empapándome, y Ray obviamente me pidió ayuda urgente, antes de la temporada alta, con Respond, justo, con el soporte. Ray se pone de muy mal humor cada vez que se mete aquí y lee los mensajes. A la par, con los developers, yo creo que podemos empezar, porque sí es prioridad todo este tema que tú traes. Entonces déjame nada más terminar de incorporarme y empezamos. Empezamos con estas pruebas y error, qué funciona y qué no funciona, hasta darle en el clavo, ¿no?
+
+**[00:57:47] Alfredo:** Sí. Yo te diría que aquí te das cuenta con este grupo, siempre andan ahí… [poco claro]
+
+**[00:58:16] Interlocutor:** Increíble que con más de cien llamadas no tengan un ejecutivo disponible.
+
+**[00:58:20] Alfredo:** Sí, o sea…
+
+**[00:58:21] Interlocutor:** La atención por WhatsApp es nula. ¿Qué tiene esa persona?
+
+**[00:58:25] Alfredo:** Este cliente quería enviar de Guadalajara a España [poco claro]. Nosotros, por el caso de Paola Reventa [?], ahora estamos pidiendo un fondo de garantía de tres mil pesos. O sea, ¿quieres mandar internacional? Se te congelan tres mil pesos en tu cuenta para que puedas usar la plataforma. Él no nos quiso pagar. Entonces estuvo hablando y hablando, y presentó el ticket el viernes. O sea, es media verdad, media mentira, ¿verdad? Pero en el chat, en Respond, se ve cómo este cliente batalla con la IA, con la inteligencia artificial: "Oye, le estoy escribiendo y no…".
+
+**[00:59:07] Interlocutor:** Nada.
+
+**[00:59:08] Alfredo:** No, no. Sí, por eso empecé por ahí. Hay muchos como este. Y la primera llamada de atención que tuvimos, por ejemplo, fue de uno que se llama Fajas Colombianas: "Oye, es que el área de Risk te está bloqueando". Le digo: "No, espérame, ¿cómo estuvo?". Pues no: estuvo todo el día hablando con la IA y nunca pudo hablar con una persona. Entonces no era tema de que lo estuviéramos bloqueando. Entonces, yo creo que una cosa que yo te pediría es que te empapes con tus desarrolladores, o con todos, para que entiendan el proceso. Porque si no entienden el proceso al cien, probablemente va a quedar algo volando o no va a funcionar.
+
+**[01:00:05] Interlocutor:** Claro.
+
+**[01:00:06] Alfredo:** Ahí, a lo mejor… ahorita lo único que llevo aquí son cinco meses.
+
+**[01:00:19] Interlocutor:** Sí. El equipo de TI a veces tiene iniciativas y no toma en cuenta a la operación. Entonces…
+
+*[Fin de la grabación]*
